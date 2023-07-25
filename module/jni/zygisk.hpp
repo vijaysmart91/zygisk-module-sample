@@ -378,14 +378,4 @@ inline bool Api::pltHookCommit() {
     return tbl->pltHookCommit != nullptr && tbl->pltHookCommit();
 }
 
-} // namespace zygisk
-
-extern "C" {
-
-[[gnu::visibility("default"), maybe_unused]]
-void zygisk_module_entry(zygisk::internal::api_table *, JNIEnv *);
-
-[[gnu::visibility("default"), maybe_unused]]
-void zygisk_companion_entry(int);
-
-} // extern "C"
+extern "C
