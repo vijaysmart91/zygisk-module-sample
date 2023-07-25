@@ -24,4 +24,14 @@ jobs:
       run: make check
 
     - name: Run distcheck
-      run: make distcheck
+      run: make distche
+$GNUMAKE -f <ndk>/build/core/build-local.mk
+<parameters>
+$ cd <project>
+$ <ndk>/ndk-
+  
+  $ ndk-build clean
+
+  rm: fts_read: No such file or directory 
+  $ ndk-build NDK_DEBUG=1
+  
